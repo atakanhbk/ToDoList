@@ -109,6 +109,8 @@ ul{
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
 }
 
 #todoClearButton {
@@ -120,6 +122,7 @@ ul{
     white-space: nowrap;
     box-sizing: border-box;
     padding-top: 10px;
+    
 }
 
 
@@ -130,5 +133,7 @@ ul{
     border: 1px solid black;
 }
 
-
+.delete-item{
+  box-sizing: border-box;
+}
 

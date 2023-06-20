@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" ; 
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
                 <div class="card-body">
                     <form id="todoAddForm">
                         <input type="text" class="form-control" id="todoName" placeholder="Todo Giriniz">
-                        <button id="todoAddButton" type="submit" class="btn">Todo Ekleyin</button>
+                        <button id="todoAddButton" type="submit" class="btn" style="cursor: pointer;">Todo Ekleyin</button>
 
                     </form>
 
@@ -37,14 +38,41 @@
 
 
                     </form>
-                  <ul>
-                    <li class="list-group">Todo 1</li>
-                    <li class="list-group">Todo 2</li>
-                    <li class="list-group">Todo 3</li>
-                    <li class="list-group">Todo 4</li>
-              
-                    <a href="#" id="todoClearButton" type="submit" class="btn">Tüm Todolari Temizle</a>
-                  </ul>
+                    <ul class="ul-group">
+                        <li class="list-group">
+                            Todo 1
+                            <a href="#" class="delete-item">
+                                <i class="fa fa-remove">
+
+                                </i>
+                            </a>
+                        </li>
+                        <li class="list-group">Todo 2
+                            <a href="#" class="delete-item">
+                                <i class="fa fa-remove" >
+
+                                </i>
+                            </a>
+                        </li>
+                        <li class="list-group">Todo 3
+                            <a href="#" class="delete-item">
+                                <i class="fa fa-remove">
+
+                                </i>
+                            </a>
+                        </li>
+
+                        <li class="list-group">Todo 4
+                            <a href="#" class="delete-item">
+                                <i class="fa fa-remove">
+
+                                </i>
+                            </a>
+                        </li>
+                
+
+                        <a href="#" id="todoClearButton" type="submit" class="btn">Tüm Todolari Temizle</a>
+                    </ul>
 
                 </div>
 
@@ -60,6 +88,7 @@
 
     </div>
 
+    
     <script src="app.js"></script>
 </body>
 
